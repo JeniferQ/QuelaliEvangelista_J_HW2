@@ -93,6 +93,18 @@ article p, #instructions p {
     background-position-y: -150px;
 }
 
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sticky_footer {
+    height: 80px;
+    background-color: rgb(38, 38, 38);
+    position: sticky;
+    top: 100%;
+}
+
 #lightbox1 {
     background-image: url('../images/Loid_Forger.webp');
     background-size: 47vh;
@@ -149,16 +161,4 @@ article p, #instructions p {
 
 .lightbox:target {
     display: block;
-}
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-}
-
-.sticky_footer {
-    height: 80px;
-    background-color: rgb(38, 38, 38);
-    position: sticky;
-    top: 100%;
 }
