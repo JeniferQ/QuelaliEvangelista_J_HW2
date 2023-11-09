@@ -4,7 +4,6 @@
 
 html, body {
     height: 100%;
-
 }
 
 body {
@@ -150,5 +149,16 @@ article p, #instructions p {
 
 .lightbox:target {
     display: block;
-    
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sticky_footer {
+    height: 80px;
+    background-color: rgb(38, 38, 38);
+    position: sticky;
+    top: 100%;
 }
