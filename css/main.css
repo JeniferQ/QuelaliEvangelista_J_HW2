@@ -93,3 +93,62 @@ article p, #instructions p {
 #Loid:hover, #Anya:hover, #Yor:hover, #Bond:hover {
     background-position-y: -150px;
 }
+
+#lightbox1 {
+    background-image: url('../images/Loid_Forger.webp');
+    background-size: 47vh;
+    background-position: 150px bottom;
+}
+
+#lightbox2 {
+    background-image: url('../images/Anya_Forger.webp');
+    background-size: 30vh;
+    background-position: 150px bottom;
+}
+
+#lightbox3 {
+    background-image: url('../images/Yor_Forger.webp');
+    background-size: 67vh;
+    background-position: 65px bottom;
+}
+
+#lightbox4 {
+    background-image: url('../images/Bond_Forger.webp');
+    background-size: 60vh;
+    background-position: 130px bottom;
+}
+
+.lightbox_close {
+    position: absolute;
+    top: 30px;
+    right: 3.5%;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: all .3s ease-in-out;
+}
+
+.lightbox_close:hover {
+    opacity: 0.5;
+    color: rgb(255, 0, 81);
+}
+
+.lightbox article {
+    width: 55%;
+    margin-left: 40%;
+    padding-top: 50px;
+}
+
+.lb_text, .lb_headings {
+    text-align: justify;
+}
+
+.lb_text {
+    line-height: 22px;
+}
+
+.lightbox:target {
+    display: block;
+    
+}
